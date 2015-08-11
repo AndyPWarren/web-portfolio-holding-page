@@ -1,0 +1,24 @@
+{
+  "name": "holding-page",
+  "version": "0.0.0",
+  "authors": [
+    "Andy Warren <andrew.warren@spectrakey.co.uk>"
+  ],
+  "description": "holding page for portfolio website",
+  "main": "index.html",
+  "license": "MIT",
+  "homepage": "www.andrewpwarren.co.uk",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "svg4everybody": "~1.0.0",
+    "svg-injector": "~1.1.3"
+  }
+}
