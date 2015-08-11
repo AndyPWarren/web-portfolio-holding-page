@@ -1,0 +1,132 @@
+@orange: rgb(255, 162, 110);
+@blue: rgb(60, 94, 112);
+
+body {
+    margin: 0px;
+    color: rgb(60, 94, 112);
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2 {
+    font-family: 'Nixie One', cursive;
+    font-size: 3em;
+    letter-spacing: 0.1em;
+    font-weight: 400;
+}
+
+h2 {
+    margin-left: 2em;
+}
+
+h3 {
+    font-size: 1.5em;
+    font-weight: 400
+}
+
+#hero-text {
+    position: absolute;
+    top: 0px;
+    margin-left: 3em;
+}
+
+.content {
+
+}
+
+#hero-image {
+    width: 100%;
+}
+
+.icons {
+    height: 2.5em;
+    margin-left: -1px;
+    margin-top: -1px;
+}
+
+.icon-background {
+    background-color: white;
+    border-radius: 51%;
+    width: 2.3em;
+    height: 2.3em;
+    margin-bottom: 2em;
+}
+
+#social-media-icons {
+    margin-top: 2em;
+    margin-left: 5em;
+    text-align: center;
+}
+
+
+#content {
+    position: absolute;
+    top: 1em;
+    right: 5em;
+}
+
+.contact-row {
+    margin-top: 2em;
+    color: white
+}
+
+.contact-text {
+    padding-left: 1em;
+    a {
+        color: white;
+    }
+}
+
+.align {
+    margin-top: -0.5em;
+}
+
+svg:hover {
+    .inside {
+        fill: rgb(255, 162, 110)
+    }
+}
+
+.icons {
+    opacity: 0.7;
+
+    &:hover{
+        opacity: 1;
+    }
+
+}
+
+.inside {
+    fill: rgb(255, 162, 110)
+}
+
+a {
+    color: white
+}
+
+a:focus{
+    color: white
+}
+
+footer {
+    width: 100%;
+    height: 3.5em;
+    text-align: center;
+    background-color: @orange;
+    color: white;
+    padding-top: 1em;
+    font-size: 0.75em
+}
+
+@media (max-width:1100px) {
+    body {
+        font-size:12px;
+    }
+}
+
+@media (max-width:800px) {
+    body {
+        font-size:10px;
+    }
+}
+
